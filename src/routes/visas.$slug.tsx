@@ -11,9 +11,9 @@ export const Route = createFileRoute("/visas/$slug")({
   },
   head: ({ loaderData }) => ({
     meta: loaderData ? [
-      { title: `${loaderData.country} — Adventure Peak Travels` },
+      { title: `${loaderData.country} — Adventure Peak Travel` },
       { name: "description", content: loaderData.description },
-      { property: "og:title", content: `${loaderData.country} — Adventure Peak Travels` },
+      { property: "og:title", content: `${loaderData.country} — Adventure Peak Travel` },
       { property: "og:description", content: loaderData.description },
       { property: "og:url", content: `/visas/${loaderData.slug}` },
     ] : [],

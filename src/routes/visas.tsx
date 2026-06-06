@@ -6,9 +6,9 @@ import { Check } from "lucide-react";
 export const Route = createFileRoute("/visas")({
   head: () => ({
     meta: [
-      { title: "Tourist Visa Services — UAE, Malaysia, Maldives, Singapore | Adventure Peak Travels" },
-      { name: "description", content: "Professional tourist visa processing for UAE, Malaysia, Maldives and Singapore. Fast, reliable visa assistance from Adventure Peak Travels Lakshadweep." },
-      { property: "og:title", content: "Tourist Visa Services — Adventure Peak Travels" },
+      { title: "Tourist Visa Services — UAE, Malaysia, Maldives, Singapore | Adventure Peak Travel" },
+      { name: "description", content: "Professional tourist visa processing for UAE, Malaysia, Maldives and Singapore. Fast, reliable visa assistance from Adventure Peak Travel Lakshadweep." },
+      { property: "og:title", content: "Tourist Visa Services — Adventure Peak Travel" },
       { property: "og:description", content: "Hassle-free tourist visas for UAE, Malaysia, Maldives and Singapore." },
       { property: "og:url", content: "/visas" },
     ],

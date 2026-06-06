@@ -6,9 +6,9 @@ import { Check } from "lucide-react";
 export const Route = createFileRoute("/packages")({
   head: () => ({
     meta: [
-      { title: "Lakshadweep Tour Packages — Adventure Peak Travels" },
+      { title: "Lakshadweep Tour Packages — Adventure Peak Travel" },
       { name: "description", content: "Browse Lakshadweep holiday packages — Diamond luxury, Silver, Premium honeymoon, Beach homestay & Budget options from ₹12,999." },
-      { property: "og:title", content: "Lakshadweep Tour Packages — Adventure Peak Travels" },
+      { property: "og:title", content: "Lakshadweep Tour Packages — Adventure Peak Travel" },
       { property: "og:description", content: "Luxury to budget Lakshadweep packages with beach stays, water sports and island hopping." },
       { property: "og:url", content: "/packages" },
     ],

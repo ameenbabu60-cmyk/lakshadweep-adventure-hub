@@ -9,7 +9,7 @@ import maldives from "@/assets/visa-maldives.jpg";
 import singapore from "@/assets/visa-singapore.jpg";
 
 export const COMPANY = {
-  name: "Adventure Peak Travels",
+  name: "Adventure Peak Travel",
   tagline: "Discover Lakshadweep & Beyond",
   email: "adventurepeaktravels25@gmail.com",
   phones: ["+91 94961 40068", "+91 70345 20877"],

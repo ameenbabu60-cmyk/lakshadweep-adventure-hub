@@ -40,10 +40,10 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 backdrop-blur-md bg-background/85 border-b border-border">
         <div className="max-w-7xl mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="Adventure Peak Travels logo" width={40} height={40} className="h-10 w-10" />
+            <img src={logo} alt="Adventure Peak Travel logo" width={40} height={40} className="h-10 w-10" />
             <div className="leading-tight">
               <div className="font-display font-bold text-base text-foreground">Adventure Peak</div>
-              <div className="text-[10px] text-muted-foreground tracking-widest uppercase">Travels</div>
+              <div className="text-[10px] text-muted-foreground tracking-widest uppercase">Travel</div>
             </div>
           </Link>
 
@@ -105,7 +105,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <img src={logo} alt="" width={36} height={36} className="h-9 w-9" />
-              <span className="font-display font-bold">Adventure Peak Travels</span>
+              <span className="font-display font-bold">Adventure Peak Travel</span>
             </div>
             <p className="text-sm text-background/70">
               Your trusted travel partner from Lakshadweep for tropical getaways, international tours and visa services.
@@ -141,7 +141,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           </div>
         </div>
         <div className="border-t border-background/10 py-4 text-center text-xs text-background/60">
-          © {new Date().getFullYear()} Adventure Peak Travels. All rights reserved.
+          © {new Date().getFullYear()} Adventure Peak Travel. All rights reserved.
         </div>
       </footer>
 

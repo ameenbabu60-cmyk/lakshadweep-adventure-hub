@@ -7,9 +7,9 @@ import { Plane, Package as PackageIcon, FileCheck, Star, Shield, Headphones, Map
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Adventure Peak Travels — Lakshadweep Tour Packages, Flights & Visas" },
-      { name: "description", content: "Book Lakshadweep holiday packages from ₹12,999, international flight tickets and tourist visas for UAE, Malaysia, Maldives & Singapore with Adventure Peak Travels." },
-      { property: "og:title", content: "Adventure Peak Travels — Lakshadweep Tour Packages, Flights & Visas" },
+      { title: "Adventure Peak Travel — Lakshadweep Tour Packages, Flights & Visas" },
+      { name: "description", content: "Book Lakshadweep holiday packages from ₹12,999, international flight tickets and tourist visas for UAE, Malaysia, Maldives & Singapore with Adventure Peak Travel." },
+      { property: "og:title", content: "Adventure Peak Travel — Lakshadweep Tour Packages, Flights & Visas" },
       { property: "og:description", content: "Curated Lakshadweep packages, flights & tourist visas. Trusted travel partner from Lakshadweep." },
       { property: "og:url", content: "/" },
       { property: "og:image", content: "/og-home.jpg" },

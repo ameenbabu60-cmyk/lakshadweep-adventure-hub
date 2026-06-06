@@ -11,9 +11,9 @@ export const Route = createFileRoute("/packages/$slug")({
   },
   head: ({ loaderData }) => ({
     meta: loaderData ? [
-      { title: `${loaderData.name} — Adventure Peak Travels` },
+      { title: `${loaderData.name} — Adventure Peak Travel` },
       { name: "description", content: loaderData.description },
-      { property: "og:title", content: `${loaderData.name} — Adventure Peak Travels` },
+      { property: "og:title", content: `${loaderData.name} — Adventure Peak Travel` },
       { property: "og:description", content: loaderData.description },
       { property: "og:type", content: "product" },
       { property: "og:url", content: `/packages/${loaderData.slug}` },
