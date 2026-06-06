@@ -43,7 +43,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
             <img src={logo} alt="Adventure Peak Travels logo" width={40} height={40} className="h-10 w-10" />
             <div className="leading-tight">
               <div className="font-display font-bold text-base text-foreground">Adventure Peak</div>
-              <div className="text-[10px] text-muted-foreground tracking-widest uppercase">Travels</div>
+              <div className="text-[10px] text-muted-foreground tracking-widest uppercase">Travel</div>
             </div>
           </Link>
 
@@ -105,7 +105,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <img src={logo} alt="" width={36} height={36} className="h-9 w-9" />
-              <span className="font-display font-bold">Adventure Peak Travels</span>
+              <span className="font-display font-bold">Adventure Peak Travel</span>
             </div>
             <p className="text-sm text-background/70">
               Your trusted travel partner from Lakshadweep for tropical getaways, international tours and visa services.
