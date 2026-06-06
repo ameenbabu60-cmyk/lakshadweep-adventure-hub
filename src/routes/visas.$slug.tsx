@@ -1,10 +1,10 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import { VISAS, COMPANY } from "@/lib/site-data";
+import { VISAS, COMPANY, type Visa } from "@/lib/site-data";
 import { Check, ArrowLeft } from "lucide-react";
 
 export const Route = createFileRoute("/visas/$slug")({
-  loader: ({ params }) => {
+  loader: ({ params }): Visa => {
     const v = VISAS.find(x => x.slug === params.slug);
     if (!v) throw notFound();
     return v;

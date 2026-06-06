@@ -1,10 +1,10 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import { PACKAGES, COMPANY, formatINR } from "@/lib/site-data";
+import { PACKAGES, COMPANY, formatINR, type Package } from "@/lib/site-data";
 import { Check, ArrowLeft, Phone, Mail } from "lucide-react";
 
 export const Route = createFileRoute("/packages/$slug")({
-  loader: ({ params }) => {
+  loader: ({ params }): Package => {
     const pkg = PACKAGES.find(p => p.slug === params.slug);
     if (!pkg) throw notFound();
     return pkg;
