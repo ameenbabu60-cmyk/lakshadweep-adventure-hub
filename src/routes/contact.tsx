@@ -6,9 +6,9 @@ import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Adventure Peak Travels — Lakshadweep" },
-      { name: "description", content: "Get in touch with Adventure Peak Travels for Lakshadweep packages, flight tickets and visa enquiries. Call, email or WhatsApp our travel experts." },
-      { property: "og:title", content: "Contact — Adventure Peak Travels" },
+      { title: "Contact Adventure Peak Travel — Lakshadweep" },
+      { name: "description", content: "Get in touch with Adventure Peak Travel for Lakshadweep packages, flight tickets and visa enquiries. Call, email or WhatsApp our travel experts." },
+      { property: "og:title", content: "Contact — Adventure Peak Travel" },
       { property: "og:description", content: "Reach our team on phone, email or WhatsApp for travel enquiries." },
       { property: "og:url", content: "/contact" },
     ],

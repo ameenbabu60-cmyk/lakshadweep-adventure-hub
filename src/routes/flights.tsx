@@ -6,9 +6,9 @@ import { Plane, Globe, Tag, Headphones, Check } from "lucide-react";
 export const Route = createFileRoute("/flights")({
   head: () => ({
     meta: [
-      { title: "Flight Ticket Booking — Domestic & International | Adventure Peak Travels" },
-      { name: "description", content: "Book domestic and international flight tickets at the best fares with Adventure Peak Travels Lakshadweep. 24/7 support, easy rescheduling and group bookings." },
-      { property: "og:title", content: "Flight Ticket Booking — Adventure Peak Travels" },
+      { title: "Flight Ticket Booking — Domestic & International | Adventure Peak Travel" },
+      { name: "description", content: "Book domestic and international flight tickets at the best fares with Adventure Peak Travel Lakshadweep. 24/7 support, easy rescheduling and group bookings." },
+      { property: "og:title", content: "Flight Ticket Booking — Adventure Peak Travel" },
       { property: "og:description", content: "Domestic & international flight tickets with the best fares and 24/7 support." },
       { property: "og:url", content: "/flights" },
     ],

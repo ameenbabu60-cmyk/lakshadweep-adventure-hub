@@ -6,9 +6,9 @@ import { Star, Heart, Shield } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Adventure Peak Travels — Lakshadweep Travel Agency" },
-      { name: "description", content: "Adventure Peak Travels is a Lakshadweep-based travel agency specialising in island holidays, international flight tickets and tourist visa services." },
-      { property: "og:title", content: "About — Adventure Peak Travels" },
+      { title: "About Adventure Peak Travel — Lakshadweep Travel Agency" },
+      { name: "description", content: "Adventure Peak Travel is a Lakshadweep-based travel agency specialising in island holidays, international flight tickets and tourist visa services." },
+      { property: "og:title", content: "About — Adventure Peak Travel" },
       { property: "og:description", content: "Lakshadweep travel experts — holidays, flights and visas." },
       { property: "og:url", content: "/about" },
     ],
