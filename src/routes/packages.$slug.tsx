@@ -27,7 +27,7 @@ export const Route = createFileRoute("/packages/$slug")({
 });
 
 function PackageDetail() {
-  const p = Route.useLoaderData();
+  const p = Route.useLoaderData() as Package;
   const wa = `https://wa.me/${COMPANY.whatsapp}?text=${encodeURIComponent(`Hi! I'm interested in the ${p.name} (${formatINR(p.price)}). Please share details.`)}`;
   return (
     <SiteLayout>

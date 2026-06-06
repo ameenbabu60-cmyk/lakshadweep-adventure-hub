@@ -26,7 +26,7 @@ export const Route = createFileRoute("/visas/$slug")({
 });
 
 function VisaDetail() {
-  const v = Route.useLoaderData();
+  const v = Route.useLoaderData() as Visa;
   const wa = `https://wa.me/${COMPANY.whatsapp}?text=${encodeURIComponent(`Hi! I'd like to apply for the ${v.country}. Please share requirements.`)}`;
   return (
     <SiteLayout>
