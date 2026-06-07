@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { COMPANY } from "@/lib/site-data";
+import { FlightBookingWidget } from "@/components/FlightBookingWidget";
 import { Plane, Globe, Tag, Headphones, Check } from "lucide-react";
 
 export const Route = createFileRoute("/flights")({
