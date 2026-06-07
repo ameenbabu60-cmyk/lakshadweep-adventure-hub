@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState, useEffect } from "react";
 import { AIRPORTS, type Airport } from "@/lib/airports";
 import { COMPANY } from "@/lib/site-data";
-import { ArrowLeftRight, Plane, Search, Users, Calendar as CalIcon } from "lucide-react";
+import { ArrowLeftRight, Search, Users, Calendar as CalIcon } from "lucide-react";
 
 type TripType = "oneway" | "roundtrip";
 
