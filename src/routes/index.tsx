@@ -51,8 +51,8 @@ function HomePage() {
             <Link to="/packages" className="inline-flex items-center gap-2 rounded-xl bg-gradient-sunset text-accent-foreground px-6 py-3 font-semibold shadow-soft hover:opacity-95">
               Explore Packages <ArrowRight className="h-4 w-4" />
             </Link>
-            <Link to="/contact" className="inline-flex items-center gap-2 rounded-xl bg-background/15 backdrop-blur border border-primary-foreground/30 text-primary-foreground px-6 py-3 font-semibold hover:bg-background/25">
-              Get a Free Quote
+            <Link to="/flights" className="inline-flex items-center gap-2 rounded-xl bg-background/15 backdrop-blur border border-primary-foreground/30 text-primary-foreground px-6 py-3 font-semibold hover:bg-background/25">
+              Book Flight
             </Link>
           </div>
         </div>

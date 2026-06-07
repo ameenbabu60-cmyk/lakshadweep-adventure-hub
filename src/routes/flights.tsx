@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { COMPANY } from "@/lib/site-data";
+import { FlightBookingWidget } from "@/components/FlightBookingWidget";
 import { Plane, Globe, Tag, Headphones, Check } from "lucide-react";
 
 export const Route = createFileRoute("/flights")({
@@ -26,6 +27,9 @@ function FlightsPage() {
           <p className="text-sm font-semibold uppercase tracking-widest opacity-80">Flight bookings</p>
           <h1 className="mt-2 text-4xl md:text-5xl font-bold">Domestic & International Flight Tickets</h1>
           <p className="mt-3 max-w-2xl opacity-90">From Kochi to anywhere in the world — get the best fares and personalised service.</p>
+          <div className="mt-8 text-foreground">
+            <FlightBookingWidget />
+          </div>
         </div>
       </section>
 
