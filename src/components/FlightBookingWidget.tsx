@@ -154,9 +154,6 @@ export function FlightBookingWidget() {
             </button>
           ))}
         </div>
-        <div className="ml-auto inline-flex items-center gap-1 text-xs text-muted-foreground">
-          <Plane className="h-3.5 w-3.5" /> Best fares · 24/7 support
-        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-3 items-end">
